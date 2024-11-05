@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "games-f4f37",
+    "91games": "games-f0f16"
+  },
+  "targets": {},
+  "etags": {}
+}
