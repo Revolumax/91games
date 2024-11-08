@@ -27,7 +27,7 @@ export default function Ganadores() {
       evento: "Race Preguntas",
     },
     {
-      name: "xxSummerWishxx",
+      name: "roddv",
       imageUrl:
         "https://crafatar.com/renders/body/5e114847-af2f-4287-98c4-76c42bf2c74d",
       evento: "Geografía",
