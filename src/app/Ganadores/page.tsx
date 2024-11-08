@@ -29,7 +29,7 @@ export default function Ganadores() {
     {
       name: "xxSummerWishxx",
       imageUrl:
-        "https://crafatar.com/renders/body/Alex",
+        "https://crafatar.com/renders/body/5e114847-af2f-4287-98c4-76c42bf2c74d",
       evento: "Geografía",
     },
   ];
