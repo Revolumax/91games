@@ -36,7 +36,7 @@ export default function Ganadores() {
 
   return (
     <>
-      <h5 className="text-black font-black text-[70px] text-center mt-[100px]">
+      <h5 className="text-black font-black text-[70px] text-center mt-[100px] dark:text-white">
         NUESTROS FINALISTAS
       </h5>
       <div 
