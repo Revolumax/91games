@@ -31,14 +31,14 @@ export default function Home() {
 
       <div className="w-full pt-12 p-4">
         <div className="grid gap-14 md:grid-cols-3 md:gap-5">
-          <div className="rounded-xl bg-white p-6 text-center border border-white">
-            <div className="mx-auto flex h-16 w-16 transform items-center justify-center rounded-full dark:text-gray-600">
+          <div className="rounded-xl bg-white p-6 text-center">
+            <div className="mx-auto flex h-16 w-16 transform items-center justify-center rounded-full dark:text-white">
               <FaStar />
             </div>
             <h1 className="text-darken mb-3 text-xl font-medium lg:px-14 dark:text-white">
               Originalidad
             </h1>
-            <p className="px-4 text-gray-500">
+            <p className="px-4 text-gray-500 dark:text-white">
               Sumérgete en una experiencia única y totalmente innovadora con
               juegos diseñados específicamente para sorprenderte. Descubre
               nuevas mecánicas, dinámicas y aventuras que jamás has
@@ -48,7 +48,7 @@ export default function Home() {
           </div>
           <div
             data-aos-delay="150"
-            className="rounded-xl bg-white p-6 text-center border border-white"
+            className="rounded-xl bg-white p-6 text-center"
           >
             <div className="mx-auto flex h-16 w-16 transform items-center justify-center rounded-full dark:text-white">
               <BsStars />
@@ -56,7 +56,7 @@ export default function Home() {
             <h1 className="text-darken mb-3 text-xl font-medium lg:px-14 dark:text-white">
               Entretenimiento
             </h1>
-            <p className="px-4 text-gray-500">
+            <p className="px-4 text-gray-500 dark:text-white">
               Vive la emoción de una variedad inigualable de eventos
               especialmente diseñados para mantenerte entretenido. Desde
               competencias rápidas hasta desafíos a largo plazo, el
@@ -66,7 +66,7 @@ export default function Home() {
           </div>
           <div
             data-aos-delay="300"
-            className="rounded-xl bg-white p-6 text-center border border-white"
+            className="rounded-xl bg-white p-6 text-center"
           >
             <div className="mx-auto flex h-16 w-16 transform items-center justify-center rounded-full dark:text-white">
               <GiBrain />
@@ -74,7 +74,7 @@ export default function Home() {
             <h1 className="text-darken mb-3 text-xl font-medium lg:px-14 dark:text-white">
               Habilidad
             </h1>
-            <p className="px-4 text-gray-500">
+            <p className="px-4 text-gray-500 dark:text-white">
               Pon a prueba tus capacidades y demuestra tus habilidades en una
               amplia gama de desafíos que cubren diferentes áreas de destreza.
               Ya sea en eventos de estrategia, velocidad o creatividad, tendrás
