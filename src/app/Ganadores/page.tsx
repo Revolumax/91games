@@ -30,7 +30,7 @@ export default function Ganadores() {
       name: "roddv",
       imageUrl:
         "https://crafatar.com/renders/body/5e114847-af2f-4287-98c4-76c42bf2c74d",
-      evento: "Geografía",
+      evento: "Skins",
     },
     {
       name: "NOMEPRUEBES",
@@ -42,7 +42,7 @@ export default function Ganadores() {
       name: "Lord_King_Axolot",
       imageUrl:
         "https://crafatar.com/renders/body/ec561538-f3fd-461d-aff5-086b22154bce",
-      evento: "Geografía",
+      evento: "Skins",
     },
   ];
 
