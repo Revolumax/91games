@@ -44,6 +44,41 @@ export default function Ganadores() {
         "https://crafatar.com/renders/body/ec561538-f3fd-461d-aff5-086b22154bce",
       evento: "Skins",
     },
+    {
+      name: "lowcss",
+      imageUrl:
+        "https://crafatar.com/renders/body/ec561538-f3fd-461d-aff5-086b22154bce",
+      evento: "Cultura General",
+    },
+    {
+      name: "Cafeaulait",
+      imageUrl:
+        "https://crafatar.com/renders/body/6c36e08c-6234-4e79-adbf-76c417ec9568",
+      evento: "Geo Capitales",
+    },
+
+    {
+      name: "ssarita_",
+      imageUrl:
+        "https://crafatar.com/renders/body/ec561538-f3fd-461d-aff5-086b22154bce",
+      evento: "GEO El parlamento",
+    },
+    {
+      name: "Snt223",
+      imageUrl:
+        "https://crafatar.com/renders/body/6582c998-0387-4d67-a64d-6aefcfbbbdf5",
+      evento: "GEO El parlamento",
+    },
+
+    {
+      name: "Mivw",
+      imageUrl:
+        "https://crafatar.com/renders/body/9fc34935-b21f-41bd-ac92-1d41609b1ba3",
+      evento: "GEO El parlamento",
+    },
+
+    
+    
   ];
 
   return (
