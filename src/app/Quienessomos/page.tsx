@@ -62,6 +62,9 @@ export default function Quienes() {
 
   return (
     <>
+    <div className="h-[100px]">
+
+    </div>
 <div className="text-center mx-auto mt-4 px-4 text-gray-500 dark:text-gray-300">
   <h5 className="text-black dark:text-white font-black text-[40px] sm:text-[50px] md:text-[70px]">Quienes Somos</h5>
   <br />
