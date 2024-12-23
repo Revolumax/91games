@@ -77,8 +77,31 @@ export default function Ganadores() {
       evento: "GEO El parlamento",
     },
 
+    {
+      name: "Ra1ndr0ps",
+      imageUrl:
+        "https://crafatar.com/renders/body/b868161f-3139-4b74-814e-23fc43a067c2",
+      evento: "GEO El parlamento",
+    },
+
+    {
+      name: "YTRuben_777",
+      imageUrl:
+        "https://crafatar.com/renders/body/ec561538-f3fd-461d-aff5-086b22154bce",
+      evento: "GEO El parlamento",
+    },  
     
-    
+    {
+      name: "elmexicano_xX",
+      imageUrl:
+        "https://crafatar.com/renders/body/9a112ef7-c9c5-46ba-9e8d-4c3e2b2c8fbd",
+      evento: "GEO El parlamento",
+    }, 
+
+
+    //git add .
+//git commit -m "Descripción de los cambios"
+// git push origin main
   ];
 
   return (
