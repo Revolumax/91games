@@ -100,6 +100,13 @@ export default function Ganadores() {
       evento: "GEO mapa mundial",
       hasUUID: true,
     },
+
+    {
+      name: 'rmateogamer',
+      imageUrl: 'https://crafatar.com/renders/body/bb4d3480-6c54-4c96-80e0-bd0bbcf4d173',
+      evento: "Torneo Ajedrez",
+      hasUUID: false,
+    },
   ]);
 
   useEffect(() => {
