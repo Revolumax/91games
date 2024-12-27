@@ -50,7 +50,7 @@ export default function Quienes() {
     },
   ]);
 
-  const fetchMinecraftUsername = async (uuid) => {
+  const fetchMinecraftUsername = async (uuid: string) => {
     const url = `https://playerdb.co/api/player/minecraft/${uuid}`;
 
     try {
