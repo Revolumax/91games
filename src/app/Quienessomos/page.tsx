@@ -94,6 +94,46 @@ export default function Quienes() {
         </p>
       </div>
 
+      <div className="w-full pt-12 p-4">
+        <div className="grid gap-14 md:grid-cols-3 md:gap-5">
+          <div className="rounded-xl bg-white dark:bg-gray-800 p-6 text-center">
+            <div className="mx-auto flex h-16 w-16 transform items-center justify-center rounded-full">
+              <FaBullseye />
+            </div>
+            <h1 className="text-darken dark:text-white mb-3 text-xl font-medium lg:px-14">
+              Misión
+            </h1>
+            <p className="px-4 text-gray-500 dark:text-gray-300">
+              Nuestra misión es transformar la manera en que las personas se interactúan y experimentan el servidor. A través de soluciones innovadoras y un enfoque centrado en el usuario, nos esforzamos por ofrecer eventos que no solo cumplan con las expectativas, sino que las superen, creando un impacto positivo y duradero en la experiencia de nuestros competidores.
+            </p>
+          </div>
+
+          <div data-aos-delay="150" className="rounded-xl bg-white dark:bg-gray-800 p-6 text-center">
+            <div className="mx-auto flex h-16 w-16 transform items-center justify-center rounded-full">
+              <BsEye />
+            </div>
+            <h1 className="text-darken dark:text-white mb-3 text-xl font-medium lg:px-14">
+              Visión
+            </h1>
+            <p className="px-4 text-gray-500 dark:text-gray-300">
+              Aspiramos a ser líderes en la industria del entretenimiento, reconocidos por nuestra capacidad de innovación y nuestro compromiso inquebrantable con la calidad. Nuestra visión es crear un futuro donde las comunidades potencien el progreso en el servidor y cada interacción digital sea una oportunidad para crecer y conectar en un creativo más divertido y entretenido.
+            </p>
+          </div>
+
+          <div data-aos-delay="300" className="rounded-xl bg-white dark:bg-gray-800 p-6 text-center">
+            <div className="mx-auto flex h-16 w-16 transform items-center justify-center rounded-full">
+              <GiDiamondHard />
+            </div>
+            <h1 className="text-darken dark:text-white mb-3 text-xl font-medium lg:px-14">
+              Valores
+            </h1>
+            <p className="px-4 text-gray-500 dark:text-gray-300">
+              Nuestros valores son el núcleo de todo lo que hacemos. Nos guiamos por la integridad, la excelencia, la innovación y la responsabilidad. Creemos en hacer lo correcto, en superar los estándares, en explorar nuevas ideas, y en asumir la responsabilidad de nuestras acciones. Estos valores nos definen y nos impulsan a seguir mejorando cada día.
+            </p>
+          </div>
+        </div>
+      </div>
+
       <div className="text-center mt-[80px]">
         <h5 className="text-black dark:text-white font-black text-[40px] sm:text-[50px] md:text-[70px]">Nuestro Equipo</h5>
         <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16">
