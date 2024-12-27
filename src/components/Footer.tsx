@@ -98,7 +98,7 @@ export default function Footer() {
       </div>
       <div className="mt-16 border-t border-gray-400/30 pt-8 sm:mt-20 lg:mt-24 border-white">
         <div className="text-md text-center text-white">
-          <a rel="noopener" href="/">Grupo de eventos 91games</a>
+          <a rel="noopener" href="/" className="dark:text-gray-400">Grupo de eventos 91games</a>
         </div>
       </div>
     </div>
