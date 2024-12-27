@@ -15,7 +15,9 @@ export default function Header() {
   };
 
   const closeMenu = () => {
-    setIsMenuOpen(false);
+    if (window.innerWidth < 1024) {
+      setIsMenuOpen(false);
+    }
   };
 
   useEffect(() => {
