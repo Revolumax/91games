@@ -107,6 +107,13 @@ export default function Ganadores() {
       evento: "Torneo Ajedrez",
       hasUUID: false,
     },
+
+    {
+      name: 'xd',
+      imageUrl: 'https://crafatar.com/renders/body/35b37202-5109-42fa-a737-b4cb5f98d398',
+      evento: "Torneo Ajedrez",
+      hasUUID: true,
+    },
   ]);
 
   useEffect(() => {
