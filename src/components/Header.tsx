@@ -1,9 +1,9 @@
 "use client";
+
 import logo from "../../assets/91gm.png";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
-import { FaMoon } from "react-icons/fa6";
-import { FaSun } from "react-icons/fa";
+import { FaMoon, FaSun } from "react-icons/fa";
 import Image from "next/image";
 
 export default function Header() {
@@ -12,12 +12,6 @@ export default function Header() {
 
   const toggleDarkMode = () => {
     setIsDarkMode(!isDarkMode);
-  };
-
-  const closeMenu = () => {
-    if (window.innerWidth < 1024) {
-      setIsMenuOpen(false);
-    }
   };
 
   useEffect(() => {
@@ -40,7 +34,7 @@ export default function Header() {
           <div className="flex items-center lg:hidden">
             <button
               onClick={toggleDarkMode}
-              className=" outline-none border-none mr-[10px]"
+              className="outline-none border-none mr-[10px]"
             >
               {isDarkMode ? (
                 <FaSun className="h-6 w-6 text-gray-500" />
@@ -50,8 +44,8 @@ export default function Header() {
             </button>
             <button
               type="button"
-              className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none"
-              aria-controls="mobile-menu-2"
+              className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              aria-controls="mobile-menu"
               aria-expanded={isMenuOpen}
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
@@ -82,38 +76,113 @@ export default function Header() {
               </svg>
             </button>
           </div>
+
+          {/* Menú de navegación */}
+          <div
+            className="hidden lg:flex flex-grow items-center justify-between ml-24"
+            id="mobile-menu"
+          >
+            <ul className="flex flex-col mt-4 lg:flex-row lg:space-x-8 lg:mt-0 lg:flex-grow">
+              <li>
+                <Link
+                  href="/"
+                  className="block py-2 pl-3 pr-4 text-white bg-purple-700 rounded lg:bg-transparent lg:p-0 lg:hover:text-purple-700 dark:text-gray-400 dark:hover:text-white"
+                >
+                  Inicio
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/Quienessomos"
+                  className="block py-2 pl-3 pr-4 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white"
+                >
+                  Quienes Somos
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/Eventos"
+                  className="block py-2 pl-3 pr-4 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white"
+                >
+                  Eventos
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/Ganadores"
+                  className="block py-2 pl-3 pr-4 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white"
+                >
+                  Ganadores
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/Torneos"
+                  className="block py-2 pl-3 pr-4 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white"
+                >
+                  Torneos
+                </Link>
+              </li>
+            </ul>
+            <div className="mt-4 lg:mt-0">
+              <button
+                onClick={toggleDarkMode}
+                className="outline-none border-none mr-7"
+              >
+                {isDarkMode ? (
+                  <FaSun className="h-6 w-6 text-gray-500" />
+                ) : (
+                  <FaMoon className="h-6 w-6 text-gray-500" />
+                )}
+              </button>
+            </div>
+          </div>
         </div>
       </nav>
 
-      {/* Menú de navegación en responsive */}
+      {/* Menú desplegable móvil */}
       <div
-        className={`lg:hidden absolute z-50 w-full bg-gray-900 text-white ${
-          isMenuOpen ? "block" : "hidden"
-        }`}
+        className={`lg:hidden flex-grow items-center justify-between absolute z-50 w-full bg-gray-900 text-white mt-[85px] border-none ${isMenuOpen ? "block" : "hidden"}`}
+        id="mobile-menu"
       >
-        <ul className="flex flex-col">
+        <ul className="flex flex-col lg:flex-row lg:space-x-8 lg:mt-0 lg:flex-grow">
           <li>
-            <Link href="/" onClick={closeMenu} className="py-2 pl-3 pr-4">
+            <Link
+              href="/"
+              className="block py-2 pl-3 pr-4 text-white hover:bg-purple-700 rounded lg:bg-transparent lg:text-purple-700 lg:p-0 dark:text-gray-400"
+            >
               Inicio
             </Link>
           </li>
           <li>
-            <Link href="/Quienessomos" onClick={closeMenu} className="py-2 pl-3 pr-4">
+            <Link
+              href="/Quienessomos"
+              className="block py-2 pl-3 pr-4 hover:bg-purple-700 text-white border-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white"
+            >
               Quienes Somos
             </Link>
           </li>
           <li>
-            <Link href="/Eventos" onClick={closeMenu} className="py-2 pl-3 pr-4">
+            <Link
+              href="/Eventos"
+              className="block py-2 pl-3 pr-4 text-white hover:bg-purple-700 rounded lg:bg-transparent lg:text-purple-700 lg:p-0 dark:hover:bg-gray-700 dark:text-gray-400"
+            >
               Eventos
             </Link>
           </li>
           <li>
-            <Link href="/Ganadores" onClick={closeMenu} className="py-2 pl-3 pr-4">
+            <Link
+              href="/Ganadores"
+              className="block py-2 pl-3 pr-4 text-white hover:bg-purple-700 border-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white"
+            >
               Ganadores
             </Link>
           </li>
           <li>
-            <Link href="/Torneos" onClick={closeMenu} className="py-2 pl-3 pr-4">
+            <Link
+              href="/Torneos"
+              className="block py-2 pl-3 pr-4 dark:text-gray-400 hover:bg-purple-700 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white"
+            >
               Torneos
             </Link>
           </li>
