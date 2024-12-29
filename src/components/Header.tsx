@@ -26,7 +26,7 @@ export default function Header() {
     <>
       <nav className="border-gray-200 py-[20px] bg-gray-900 w-full text-white">
         <div className="mx-auto flex flex-wrap items-center justify-between px-4">
-          <a href="#" className="flex items-center">
+          <a href="/" className="flex items-center">
             <Image src={logo} alt="Logo" className="h-[45px] w-[165px]" />
           </a>
 
@@ -88,7 +88,7 @@ export default function Header() {
                   href="/"
                   className="block py-2 pl-3 pr-4 text-white bg-purple-700 rounded lg:bg-transparent lg:p-0 lg:hover:text-purple-700 dark:text-gray-400 dark:hover:text-white"
                 >
-                  Inicio
+                  Iniciowebres
                 </Link>
               </li>
               <li>
