@@ -88,7 +88,7 @@ export default function Header() {
                   href="/"
                   className="block py-2 pl-3 pr-4 text-white bg-purple-700 rounded lg:bg-transparent lg:p-0 lg:hover:text-purple-700 dark:text-gray-400 dark:hover:text-white"
                 >
-                  Iniciowebres
+                  Inicio
                 </Link>
               </li>
               <li>
@@ -149,6 +149,7 @@ export default function Header() {
           <li>
             <Link
               href="/"
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="block py-2 pl-3 pr-4 text-white hover:bg-purple-700 rounded lg:bg-transparent lg:text-purple-700 lg:p-0 dark:text-gray-400"
             >
               Inicio
