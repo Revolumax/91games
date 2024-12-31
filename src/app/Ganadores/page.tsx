@@ -114,6 +114,36 @@ export default function Ganadores() {
       evento: "Torneo Ajedrez",
       hasUUID: true,
     },
+
+    {
+      name: 'xd',
+      imageUrl: 'https://crafatar.com/renders/body/1197c1a8-44bc-400a-8653-5d13f80b82fe',
+      evento: "Skins",
+      hasUUID: true,
+    },
+
+    {
+      name: 'PaoloRecods_',
+      imageUrl: 'https://crafatar.com/renders/body/c4f96da6-6b93-4b73-863d-48816d5b15d4',
+      evento: "Skins",
+      hasUUID: false,
+    },
+
+    {
+      name: 'Bl4ckSoul_',
+      imageUrl: 'https://crafatar.com/renders/body/15a4903f-95dd-4c45-be48-78ff0d5f672c',
+      evento: "GEO Mundial",
+      hasUUID: true,
+    },
+
+    {
+      name: 'xLuciii_',
+      imageUrl: 'https://crafatar.com/renders/body/de6f04fb-d305-421d-9d79-c9cf89e120f7',
+      evento: "Skins",
+      hasUUID: true,
+    },
+
+
   ]);
 
   useEffect(() => {

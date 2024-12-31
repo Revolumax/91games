@@ -43,11 +43,26 @@ export default function Quienes() {
       imageUrl: "https://crafatar.com/renders/body/3b04caee-46f7-4a09-8199-f2ff99b881a9",
       uuid: "3b04caee-46f7-4a09-8199-f2ff99b881a9",
     },
+
+
     {
       name: "snt223",
       imageUrl: "https://crafatar.com/renders/body/6582c998-0387-4d67-a64d-6aefcfbbbdf5",
       uuid: "6582c998-0387-4d67-a64d-6aefcfbbbdf5",
     },
+
+    {
+      name: "xd11",
+      imageUrl: "https://crafatar.com/renders/body/c4f96da6-6b93-4b73-863d-48816d5b15d4",
+      uuid: null,
+    },
+
+    {
+      name: "zRuih",
+      imageUrl: "https://crafatar.com/renders/body/c4f96da6-6b93-4b73-863d-48816d5b15d4",
+      uuid: null,
+    },
+
   ]);
 
   const fetchMinecraftUsername = async (uuid: string) => {
