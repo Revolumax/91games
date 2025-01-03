@@ -53,7 +53,7 @@ export default function Quienes() {
 
     {
       name: "xd11",
-      imageUrl: "https://crafatar.com/renders/body/c4f96da6-6b93-4b73-863d-48816d5b15d4",
+      imageUrl: "https://crafatar.com/renders/body/b868161f-3139-4b74-814e-23fc43a067c2",
       uuid: null,
     },
 
